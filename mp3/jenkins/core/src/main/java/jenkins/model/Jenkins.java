@@ -1732,6 +1732,11 @@ public class Jenkins extends AbstractCIBase implements DirectlyModifiableTopLeve
         }
     }
 
+    public void updateAndTrim() {
+         updateComputerList();
+         trimLabels();
+    }
+
     /**
      * Binds {@link AdministrativeMonitor}s to URL.
      */

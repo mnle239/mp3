@@ -1,4 +1,4 @@
-#Tue Oct 20 16:34:48 EDT 2020
+#Tue Oct 20 20:04:21 EDT 2020
 supportsDynamicLoad=\ Does this plugin supports dynamic loading?\n
 getShortName=\ Returns the short name suitable for URL.\n
 getVersion=\ Returns the version number of this plugin\n

@@ -556,3 +556,4 @@ jenkins/model/ExtensionTypeHierarchyTest$White.class
 lib/layout/IconTest$1.class
 hudson/ExtensionListTest$Sishamo$DescriptorImpl.class
 hudson/diagnosis/OldDataMonitorTest$1.class
+jenkins/model/IdFromFileNameTest.class
