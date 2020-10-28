@@ -1,0 +1,26 @@
+Question 1:
+This code smell is an example of duplicated code. To remove the duplicated code,
+I created a new method that can be call from both places the code used to exist.
+By extracting the method, it allows for programmers to understand the code better 
+and it also allows the program to be modified more easily in the future.
+
+Question 2:
+No question.
+
+Question 3:
+This code smell is also an example of duplicated code, however in this case the 
+code was in different classes. To remove the code smell I created a new method 
+and then placed that method in the jenkins.model.Jenkins' class. This method
+makes more sense in its new location because it is using methods from the
+jenkins.model.Jenkins' class.
+
+Question 4:
+To get rid of this repeated code I created a for loop with the repeated code inside.
+The statement loops through 4 times since that was the number of times the code was 
+repeated. 
+
+Question 6:
+I would eliminate the duplicate code in RunParameterDefinitionTest.java. There is about
+20 lines of code that are repeated in 5 different test cases. I would use the Extract 
+method, and put the repeated lines of code in the new method and then call it from
+each place the code is repeated. 
